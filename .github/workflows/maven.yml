@@ -54,5 +54,4 @@ jobs:
         token: ${{ secrets.JENKINS_TOKEN }}
         job: "TomcatDeplyment"
 
-
         
