@@ -41,7 +41,7 @@ jobs:
        pass: ${{ secrets.PASSWORD }}
        port: ${{ secrets.PORT }}
        scp: |
-        ./target/*.war => /tmp/
+        /usr/share/java/*.war => /tmp/
        last_ssh: |
         ls -lart /tmp
 
