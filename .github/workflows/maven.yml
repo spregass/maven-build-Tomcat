@@ -6,13 +6,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Tomcat with Maven
 
 on:
   push:
-    branches-ignore:
-      - 'dependabot/**'
+    branches: [ "main" ]
   pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
